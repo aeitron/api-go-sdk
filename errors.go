@@ -63,3 +63,4 @@ func (e *NetworkError) Error() string {
 func (e *NetworkError) Unwrap() error {
 	return e.Err
 }
+

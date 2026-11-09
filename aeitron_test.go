@@ -277,3 +277,4 @@ func TestWebhookSignatureVerification(t *testing.T) {
 		t.Fatal("expected invalid secret to fail, got nil")
 	}
 }
+

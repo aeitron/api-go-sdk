@@ -197,3 +197,4 @@ func (t *transport) parseError(resp *http.Response) error {
 		return &apiErr
 	}
 }
+

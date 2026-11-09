@@ -214,3 +214,4 @@ func (s *NetworkService) GetLatencyMatrix(ctx context.Context) ([]LatencyMatrixR
 	}
 	return resp.Matrix, nil
 }
+

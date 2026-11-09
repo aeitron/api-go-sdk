@@ -81,3 +81,4 @@ func (w *WebhookVerifier) VerifySignature(payload []byte, signatureHeader, secre
 
 	return ErrSignatureMismatch
 }
+

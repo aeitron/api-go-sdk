@@ -195,3 +195,4 @@ type SubseaCableStatus struct {
 	Operational  bool    `json:"operational"`
 	CapacityTbps float64 `json:"capacity_tbps"`
 }
+
